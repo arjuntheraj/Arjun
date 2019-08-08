@@ -1,0 +1,27 @@
+/*
+ * UserOutput css File
+*/
+
+.UserOutput {
+    /* propertys here */
+    width:60%;
+    margin: 16px auto;
+    border: 2px solid rgb(19, 18, 18);
+    background-color: gray;
+    padding: 16px;
+    text-align: center;
+}
+.a{
+    animation: a-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@keyframes a-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

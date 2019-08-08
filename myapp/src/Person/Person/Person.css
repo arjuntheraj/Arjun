@@ -3,5 +3,10 @@
 */
 
 .Person {
-    /* propertys here */
+ width:60%;
+ margin: 16px auto;  /*top and bottom margin*/
+ border: 1px solid rgb(159, 157, 160);
+ box-shadow :0 2px 3px rgb(104, 101, 101);
+ padding:16px;
+ text-align: center;
 }
